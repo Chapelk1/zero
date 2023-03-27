@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body{
+    padding: 40px;
+    background-color: tan;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    margin: 0 auto;
+    border-radius: 50%;
+
+}
